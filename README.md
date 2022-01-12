@@ -1,6 +1,6 @@
 # terraform-random
 
-Random provider [see doc lin](https://registry.terraform.io/providers/hashicorp/random/latest/docs) can generate randomness that can be used in the terraform configuration, for example with tags.
+Random provider [see doc](https://registry.terraform.io/providers/hashicorp/random/latest/docs) can generate randomness that can be used in the terraform configuration, for example with tags.
 
 # How to use this repo
 Clone
