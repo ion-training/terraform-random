@@ -1,6 +1,12 @@
 # terraform-random
-
 Random provider [see doc](https://registry.terraform.io/providers/hashicorp/random/latest/docs) can generate randomness that can be used in the terraform configuration, for example with tags.
+
+Purpose of this repo is to generate a random number over 4 bytes length and view it after.
+```
+resource "random_id" "suffix_tags" {
+  byte_length = 4
+}
+```
 
 # How to use this repo
 Clone
